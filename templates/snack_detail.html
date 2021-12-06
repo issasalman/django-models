@@ -1,0 +1,16 @@
+{% extends '_base.html' %}
+
+<!-- {% block title %} Snacks|{{snack.name}} {% endblock %} -->
+
+{% block content %}
+<div>
+
+
+    <ul>
+        <li>  <h1>Name:- {{ snack.name }}</h1></li>
+        <li> <p>Purchaser:- {{ snack.purchaser }}</p></li>
+        <li> <p>Description:- {{ snack.description }}</p></li>
+    </ul>
+</div>
+
+{% endblock %}
